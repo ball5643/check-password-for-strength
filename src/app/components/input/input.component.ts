@@ -26,7 +26,7 @@ export class InputComponent implements OnInit {
       this.easyColor = 'grey';
       this.mediumColor = 'grey';
       this.strongColor = 'grey';
-    } else if (inputValue.length < 8) {
+    } else if (inputLength < 8) {
       this.easyColor = 'red';
       this.mediumColor = 'red';
       this.strongColor = 'red';
